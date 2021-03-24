@@ -1,20 +1,19 @@
 <template>
-  <div class="home">
-
-    <div class="text-red-900">
-        Staff Engineer
-      </div>
+  <div >
+<main-body/>
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+import mainBody from '@/components/mainBody.vue'
 
 export default {
   name: 'Home',
+
   components: {
-    // HelloWorld
+    mainBody
   }
 }
 </script>
