@@ -3,3 +3,11 @@
 -webkit-box-shadow: 11px 10px 0px -1px #9b4c0e;
 -moz-box-shadow: 11px 10px 0px -1px #9b4c0e;
 }
+
+.child-1{
+      flex: 1;
+}
+
+.child-2{
+      flex: 3;
+}
