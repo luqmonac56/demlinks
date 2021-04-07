@@ -4,10 +4,46 @@
 -moz-box-shadow: 11px 10px 0px -1px #9b4c0e;
 }
 
-.child-1{
-      flex: 1;
+
+  
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
 }
 
-.child-2{
-      flex: 3;
+  
+  blockquote::before {
+      content: ' \93';
+      color: #9b4c0e;
+      font-size: 50px;
+      line-height: 20px;
+      position: relative;
+      bottom: -15px;
+      right: 5px;
+  }
+ 
+  blockquote::after {
+    content: ' \94';
+    color: #9b4c0e;
+    font-size: 50px;
+    line-height: 10px;
+    position: relative;
+    bottom: -15px;
+    left: 5px;
 }
+  
+  .arrow {
+      width: 20px;
+      position: absolute;
+      top: 45%;
+      right: -15px;
+  } 
+
+  .first{
+      flex: 1;
+  }
+
+  .second{
+      flex: 2;
+  }
