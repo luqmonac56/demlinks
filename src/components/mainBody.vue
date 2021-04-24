@@ -97,19 +97,21 @@
       <div class=" bg-yellow-800 w-20 h-0.5 mt-0 mb-8 mx-auto shadow-2xl"></div>
 
       <div class="w-11/12 shadow-2xl my-0 mx-auto relative">
-        <div class=" md:flex  justify-between items-center">
-              <img src="@/assets/images/testimony.svg" alt="testimony" class=" w-9/12 pt-3 ml-3 md:w-80 first">
+        <div class=" md:flex  justify-between items-center md:px-12">
+              <div class="first">
+                    <img src="@/assets/images/testimony.svg" alt="testimony" class=" w-9/12 pt-3 ml-3 md:w-80 max-w-xs">
+              </div>
             <div class="  second" >
-                  <blockquote class="w-3/4 my-0 mx-auto text-left ">
-                        They are proficient in designing world class website to suit your business and i love the taste and feel of my website
-                  </blockquote>
+                  <img src="@/assets/images/upper-quotation.png" alt="upper-quotes" class=" w-14 -mt-8  ml-10 mb-6 md:mt-6">
 
-                  <h2 class=" text-left text-xl font-semibold text-yellow-500 w-3/4 my-0 mx-auto">John Tee</h2>          
-                  <p class="text-left text-base font-semibold pb-6 w-3/4 my-0 mx-auto ">CEO, frit publications</p>
+                        <p class="w-3/4 md:w-2/3 my-0 mx-auto text-left pl-10 md:pl-0 ">They are proficient in designing world class website to suit your business and i love the taste and feel of my website</p>
+                  <img src="@/assets/images/lower-quotation.png" alt="lower-quotes" class="ml-auto mr-10  w-14 mt-4">
+                  <h2 class=" text-left text-xl font-semibold text-yellow-500 w-3/4 my-0 mx-auto md:w-2/3">John Tee</h2>          
+                  <p class="text-left text-base font-medium pb-6 w-3/4 my-0 mx-auto md:w-2/3 ">CEO, frit publications</p>
             </div>
 
         </div>
-         <button class=" bg-yellow-700 p-5 arrow w-7 h-8 "><img src="@/assets/images/next.png" alt="" class="w-7 h-8 "></button>
+         <button class=" bg-yellow-700 p-5 arrow w-7 h-8 flex justify-center items-center"><p class=" text-white h-8 w-7 text-3xl ">></p></button>
          
     </div>
 
